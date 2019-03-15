@@ -38,11 +38,12 @@ app.use((req, res, next) => {
 
 // middle ware for maintainence
 
+/*
 app.use((req, res, next) => {
     res.render('maintain.hbs', {
         customText: 'Sorry, website is currently in maintainence mode, come back soon!',
     });
-});
+});*/
 
 // in order to serve a static resource we need its absolute path which could be changed
 // so we use a built in middle ware to work with relevant path
